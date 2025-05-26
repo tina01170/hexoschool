@@ -219,8 +219,7 @@
 }
 .subscribe .content{
   /*padding:0 80px;*/
-  background-image: url('../img/Hero/Hero\ Section2.png');
-  background-image: url('img/Hero/Hero\ Section2.png');
+  background-image: url('https://myblogray.netlify.app/images/desktop/index/hero-section2.png');
   background-size: cover;
   background-position: center;
   display: flex;
