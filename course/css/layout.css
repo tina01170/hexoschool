@@ -43,7 +43,7 @@ body {
 	object-fit: cover
 }
 .banner .content {
-	background-image: url('../img/Hero/Hero\ Section2.png');
+	background-image: url('https://myblogray.netlify.app/images/desktop/index/hero-section2.png');
 	height: 834px;
 	background-size: cover;
 	background-position: 50%;
