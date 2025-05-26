@@ -7,7 +7,7 @@
 .article-section img {
 	margin: 0 0 24px
 }
-.title {
+.article-title{
 	font-size: var(--font-size-title);
 	font-weight: 700;
 	margin: 0 0 24px
@@ -80,4 +80,5 @@
 		padding-left: 0;
 		padding-right: 0
 	}
+}
 }
