@@ -1,0 +1,25 @@
+
+*, *::after, *::after {
+	box-sizing: border-box;
+  /*outline: solid 1px;*/
+}
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle
+}
+a {
+	text-decoration: none;
+	color: var(--color-black)
+}
+:root {
+	--font-size-title: 28px;
+	--color-blue: #0027d5;
+	--color-black: #4b4b4b
+}
+.color-blue {
+	color: var(--color-blue)
+}
+.color-black {
+	color: var(--color-black)
+}
