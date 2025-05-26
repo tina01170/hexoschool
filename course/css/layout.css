@@ -14,7 +14,7 @@ body {
   justify-content: center;
 }
 .nav-item a{
-  font-size: 28px;
+  font-size: var(--font-size-title);
   font-weight: 700;
   display: block;
   color:#000;
@@ -58,7 +58,7 @@ body {
 	font-family: "Lato",sans-serif;
 }
 .banner-text {
-	font-size: 28px;
+	font-size: var(--font-size-title);
 	font-weight: 700
 }
 /*featured post*/
@@ -114,7 +114,7 @@ body {
   font-weight: 700;
 }
 .title {
-	font-size: 28px;
+	font-size: var(--font-size-title);
 	font-weight: 700;
 	margin: 0 0 8px;
 }
