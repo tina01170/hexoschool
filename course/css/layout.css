@@ -151,7 +151,7 @@ background-color: var(--color-blue);
   width: 44px;
   height: 44px;
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1440px) {
   .site-title {
     font-size: 90px;
   }
