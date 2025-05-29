@@ -10,7 +10,6 @@
   padding:80px 40px;
   border-radius: 8px;
   color: #000;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   margin-top: -10%;
   margin-right: 90px;
 }
@@ -89,6 +88,12 @@
 .dash-lg{
   display: block;
   font-size: 40px;
+}
+.btn-left{
+  transition: all 0.4s ease;
+}
+.btn-left:hover{
+  color: var(--color-blue);
 }
 /*slider*/
 .slider-wrap{
@@ -265,6 +270,10 @@
   display: inline-block;
   padding: 16px 0;
   margin-right: 8px;
+  transition: all 0.4s ease;
+}
+.link-item a:hover{
+  color:var(--color-blue);
 }
 .btn-line{
   text-decoration: underline;
