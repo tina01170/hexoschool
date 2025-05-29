@@ -289,7 +289,7 @@
   margin-left: auto;
   align-self: flex-end;
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width:1440px){
   .about-fea{
     margin-top: -15%;
   }
