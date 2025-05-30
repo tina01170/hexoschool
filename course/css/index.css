@@ -2,7 +2,6 @@
 .about{
   display: flex;
   justify-content: flex-end;
-  border:1px solid #e7e7e7;
 }
 .about-fea{
   width: 50%;
@@ -41,6 +40,7 @@
 .section-title{
   font-size:64px;
   margin:0 0 24px;
+  font-size:700;
 }
 .service-title, .service-list{
   margin: 0 0 32px;
@@ -229,7 +229,7 @@
   object-fit: cover;
 }
 .subscribe .content{
-  /*padding:0 80px;*/
+  padding:0 80px;
   background-image: url('../img/hero/Hero Section2.png'); 
   background-size: cover;
   background-position: center;
@@ -238,7 +238,8 @@
   align-items: center;
 }
 .subscribe .overlay{
-  padding:60px 80px;
+  width: 100%;
+  padding:80px;
   background-color: #fff;
 }
 .subscribe-title{
@@ -404,17 +405,9 @@
     display: block;
     text-align: right;
   } 
-  
-  /* .card:nth-child(2), .card:nth-child(3)
-   { display: none;  } 因為不寫 js 所因把它藏起來*/
-  
   .sample-list .card{
     width: 100%;
     margin: 0 0 24px;
-  }
-  .subscribe .content{
-    padding-left: 12px;
-    padding-right: 12px;
   }
   .extra-text{
     font-size: 24px;
@@ -426,10 +419,6 @@
   }
   .section-title{
     font-size: 40px;
-  }
-  .subscribe .overlay{
-    padding-left: 12px;
-    padding-right: 12px;
   }
   .extra-text{
     font-size: 22px;
