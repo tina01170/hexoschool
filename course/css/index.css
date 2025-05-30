@@ -95,17 +95,22 @@
   color: var(--color-blue);
 }
 /*slider*/
-.slider-wrap{
+.slider{
   position: relative;
 }
+.slider-wrap{
+  overflow: hidden;
+}
+/*
 .article-list{
   display: flex;
   flex-wrap: wrap;
   gap:2%;
 }
+*/
 .arrow-pre,
 .arrow-next {
-  list-style: none;
+  /*list-style: none;*/
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -399,9 +404,10 @@
     display: block;
     text-align: right;
   } 
-  .card:nth-child(2), .card:nth-child(3){
-    display: none;   /* 因為不寫 js 所因把它藏起來*/
-  }
+  
+  /* .card:nth-child(2), .card:nth-child(3)
+   { display: none;  } 因為不寫 js 所因把它藏起來*/
+  
   .sample-list .card{
     width: 100%;
     margin: 0 0 24px;
