@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+  <!--bootstrap-icon-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <!--swiper-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!--css-->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
@@ -111,52 +117,98 @@
   <section class="section">
     <div class="container">
       <h2 class="section-title">部落格精選</h2>
-      <div class="slider-wrap">
-        <ul class="article-list">
-          <li class="card">
-            <img src="img/index/photo5.png" class="img" alt="article-list-1">
-            <div class="content">
-              <time class="date">2024/10/21</time>
-              <div class="label">
-                <span class="label-text color-blue">前端開發 x 職涯成長</span>  
-                <span class="label-tag">最新文章</span>
-              </div>
-              <h2 class="title">自學前端不用怕：從零開始的三大關鍵</h2>
-              <p class="text">嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！</p>
-              <a href="#" class="btn">閱讀內文</a>
-            </div>  
-          </li>  
-          <li class="card">
-            <img src="img/index/photo6.png" class="img" alt="article-list-1">
-            <div class="content">
-              <time class="date">2024/07/08</time>
-              <div class="label">
-                <a href="#" class="label-link">#面試準備</a>
-                <a href="#" class="label-link">#工程師求職</a>
-                <span class="label-tag">人氣文章</span>
-              </div>
-              <h2 class="title">前端面試不再慌：破解常見提問的三大策略</h2>
-              <p class="text">面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。</p>
-              <a href="#" class="btn">閱讀內文</a>
-            </div>  
-          </li> 
-          <li class="card">
-            <img src="img/index/photo7.png" class="img" alt="article-list-1">
-            <div class="content">
-              <time class="date">2024/09/03</time>
-              <div class="label">
-                <a href="#" class="label-link">#CSS設計</a>
-                <a href="#" class="label-link">#視覺體驗</a>
-              </div>
-              <h2 class="title">CSS 魔法大揭密：排版與設計的三大關鍵技巧</h2>
-              <p class="text">在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭 CSS，打造兼具美感與功能性的網頁。</p>
-              <a href="#" class="btn">閱讀內文</a>
-            </div>  
+      <div class="slider">
+        <div class="slider-wrap swiper">
+          <ul class="article-list swiper-wrapper">
+            <li class="card swiper-slide">
+              <img src="img/index/photo5.png" class="img" alt="article-list-1">
+              <div class="content">
+                <time class="date">2024/10/21</time>
+                <div class="label">
+                  <span class="label-text color-blue">前端開發 x 職涯成長</span>  
+                  <span class="label-tag">最新文章</span>
+                </div>
+                <h2 class="title">自學前端不用怕：從零開始的三大關鍵</h2>
+                <p class="text">嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！</p>
+                <a href="#" class="btn">閱讀內文</a>
+              </div>  
+            </li>  
+            <li class="card swiper-slide">
+              <img src="img/index/photo6.png" class="img" alt="article-list-1">
+              <div class="content">
+                <time class="date">2024/07/08</time>
+                <div class="label">
+                  <a href="#" class="label-link">#面試準備</a>
+                  <a href="#" class="label-link">#工程師求職</a>
+                  <span class="label-tag">人氣文章</span>
+                </div>
+                <h2 class="title">前端面試不再慌：破解常見提問的三大策略</h2>
+                <p class="text">面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。</p>
+                <a href="#" class="btn">閱讀內文</a>
+              </div>  
+            </li> 
+            <li class="card swiper-slide">
+              <img src="img/index/photo7.png" class="img" alt="article-list-1">
+              <div class="content">
+                <time class="date">2024/09/03</time>
+                <div class="label">
+                  <a href="#" class="label-link">#CSS設計</a>
+                  <a href="#" class="label-link">#視覺體驗</a>
+                </div>
+                <h2 class="title">CSS 魔法大揭密：排版與設計的三大關鍵技巧</h2>
+                <p class="text">在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭 CSS，打造兼具美感與功能性的網頁。</p>
+                <a href="#" class="btn">閱讀內文</a>
+              </div>  
+            </li>
+            <li class="card swiper-slide">
+              <img src="img/index/photo5.png" class="img" alt="article-list-1">
+              <div class="content">
+                <time class="date">2024/10/21</time>
+                <div class="label">
+                  <span class="label-text color-blue">前端開發 x 職涯成長</span>  
+                  <span class="label-tag">最新文章</span>
+                </div>
+                <h2 class="title">自學前端不用怕：從零開始的三大關鍵</h2>
+                <p class="text">嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！</p>
+                <a href="#" class="btn">閱讀內文</a>
+              </div>  
+            </li>  
+            <li class="card swiper-slide">
+              <img src="img/index/photo6.png" class="img" alt="article-list-1">
+              <div class="content">
+                <time class="date">2024/07/08</time>
+                <div class="label">
+                  <a href="#" class="label-link">#面試準備</a>
+                  <a href="#" class="label-link">#工程師求職</a>
+                  <span class="label-tag">人氣文章</span>
+                </div>
+                <h2 class="title">前端面試不再慌：破解常見提問的三大策略</h2>
+                <p class="text">面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。</p>
+                <a href="#" class="btn">閱讀內文</a>
+              </div>  
+            </li> 
+            <li class="card swiper-slide">
+              <img src="img/index/photo7.png" class="img" alt="article-list-1">
+              <div class="content">
+                <time class="date">2024/09/03</time>
+                <div class="label">
+                  <a href="#" class="label-link">#CSS設計</a>
+                  <a href="#" class="label-link">#視覺體驗</a>
+                </div>
+                <h2 class="title">CSS 魔法大揭密：排版與設計的三大關鍵技巧</h2>
+                <p class="text">在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭 CSS，打造兼具美感與功能性的網頁。</p>
+                <a href="#" class="btn">閱讀內文</a>
+              </div>  
+            </li>
+          </ul>
+        </div>
+        <ul class="arrow">       
+          <li class="arrow-pre">
+            <i class="bi bi-arrow-left-circle-fill"></i>
           </li>
-        </ul>
-        <ul class="arrow">
-          <li class="arrow-pre"><i class="bi bi-arrow-left-circle-fill"></i></li>
-          <li class="arrow-next"><i class="bi bi-arrow-right-circle-fill"></i></li>
+          <li class="arrow-next">
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </li>
         </ul>
       </div>
     </div>
@@ -308,6 +360,7 @@
   <footer class="footer">
     <p class="copyright">© 2025 Alyse Wang. All rights reserved</p>
   </footer>
-
+  <!--js 一定要擺後面-->
+  <script src="js/custome.js"></script>
 </body>
 </html>
