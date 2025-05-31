@@ -44,13 +44,16 @@
 }
 .number-item a {
   display: block;
-  width: 40px;
+  padding:5px 10px;
+	border-radius:50%;
+  /*width: 40px;
   height: 40px;
-  line-height: 40px;
+  line-height: 40px;*/
   transition: all .4s;
 }
 .number-item a:hover, .number-list .active a {
-  color: var(--color-blue);
+  color: #ffffff;
+  background-color: var(--color-blue);
 }
 @media screen and (max-width:768px) {
   .search {
