@@ -23,20 +23,16 @@
 }
 /*banner*/
 .banner {
-  height: 834px;
   display: flex
 }
 .banner .content,.banner .pic {
   width: 50%;
-  height: 100%
 }
 .banner .pic img {
-  height: 100%;
   object-fit: cover
 }
 .banner .content {
   background-image: url('../img/hero/Hero Section2.png');
-  height: 834px;
   background-size: cover;
   background-position: 50%;
   display: flex;
