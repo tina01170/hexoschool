@@ -33,10 +33,6 @@
   border-bottom: 1px solid #6c757d;
   padding: 80px 0;
 }
-.container{
-  max-width: 1296px;
-  margin:0 auto;
-}
 .section-title{
   font-size:64px;
   margin:0 0 24px;
@@ -322,9 +318,6 @@
 @media screen and (max-width:1280px){
   .about-fea{
     margin-top: -20%;
-  }
-  .container{
-    padding:0 12px;
   }
   .subscribe .content{
     padding:40px 24px;
