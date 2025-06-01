@@ -34,6 +34,15 @@
   flex-wrap: wrap;
   gap: 80px 2%;
 }
+.article-list .card{
+  overflow: hidden;
+}
+.article-list .card img{
+  transition: all 0.4s ease;
+}
+.article-list .card:hover img{
+  transform: scale(1.2,1.2);
+}
 .number-list {
   padding: 8px 20px;
   border-radius: 40px;
