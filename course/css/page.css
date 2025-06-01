@@ -59,26 +59,26 @@
   transition: all .4s ease;
 }
 .page-item:hover {
-  background-color: var(--color-blue)
+  background-color: var(--color-blue);
 }
 .page-item:hover a {
-  color: #fff
+  color: #fff;
 }
 .page-item .bi {
   display: inline-block;
   width: 24px;
-  height: 24px
+  height: 24px;
 }
 
 .bi-chevron-compact-left {
-  margin-right: 4px
+  margin-right: 4px;
 }
 .bi-chevron-compact-right {
-  margin-left: 4px
+  margin-left: 4px;
 }
 @media screen and (max-width:991px) {
   .article {
     padding-left: 0;
-    padding-right: 0
+    padding-right: 0;
   }
 }
