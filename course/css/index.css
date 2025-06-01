@@ -306,7 +306,7 @@
   }
   .arrow-pre, .arrow-next{
     position: relative;
-    transform: translateY(0);
+    transform: translateY(-5%);
   }
   .arrow-pre{
     left: 0;
