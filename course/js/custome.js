@@ -1,17 +1,24 @@
 new Swiper('.swiper', {
-    slidesPerView: 3,
 	spaceBetween: 24,
-	breakpoints: {
-		767: {
-			slidesPerView: 1
-		},
-		992: {
-			slidesPerView: 3
-		},
-	},
 	navigation: {
-		nextEl: '.arrow-next',
-		prevEl: '.arrow-pre',
+	  nextEl: '.arrow-next',
+	  prevEl: '.arrow-pre',
 	},
-	slidesPerView: 3,
-});
+	slidesPerView: 1,
+	breakpoints: {
+	  768: {
+		slidesPerView: 2,
+		grid: {
+		  rows: 1
+		},
+		spaceBetween: 24
+	  },
+	  992: {
+		slidesPerView: 3,
+		grid: {
+		  rows: 1
+		},
+		spaceBetween: 24
+	  }
+	}
+})
