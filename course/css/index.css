@@ -49,10 +49,10 @@
   display: flex; 
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 0 64px;
+  /*margin: 0 0 64px;*/
 }
-.reverse-card:nth-child(4){
-  margin: 0;
+.reverse-card:not(:last-child) {
+  margin: 0 0 64px;
 }
 .reverse-card .pic{
   width: 55%; 
