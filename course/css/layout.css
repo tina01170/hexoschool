@@ -68,9 +68,8 @@
   border-bottom: 1px solid #6c757d
 }
 .container {
-  max-width: 1320px;
+  max-width: 1296px;
   margin: 0 auto;
-  padding:0 12px;
 }
 .card {
   width: 32%;
@@ -157,6 +156,9 @@ background-color: var(--color-blue);
 @media screen and (max-width:1280px) {
   .site-title {
     font-size: 70px;
+  }
+  .container {
+    padding:0 12px;
   }
 }
 @media screen and (max-width:991px) {
